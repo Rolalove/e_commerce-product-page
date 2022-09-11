@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/202ae1d0d9.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+  <header>
+    <nav class="nav_container">
+      <label class="icon">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <div class="logo_sign">
+        <img class="logo" src="./images/logo.svg" alt="sneakers">
+        <ul class="menu">
+          <li><a href="">Collections</a></li>
+          <li><a href="">Men</a></li>
+          <li><a href="">Women</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="cart_img">
+        <img src="./images/icon-cart.svg" alt="">
+        <img class="avatar" src="./images/image-avatar.png" alt="">
+      </div>
+    </nav>
+    <hr>
+  </header>
+  <main class="content">
+    <div class="box">
+      <div class="sneakers_picture">
+        <img src="./images/image-product-1.jpg" alt="">
+      </div>
+      <div class="thumbnail">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="">
+        <img src="./images/image-product-2-thumbnail.jpg" alt="">
+        <img src="./images/image-product-3-thumbnail.jpg" alt="">
+        <img src="./images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+    </div>
+    <div class="box1 sneakers_info">
+      <h5>Sneaker Company</h5>
+      <h1>Fall Limited Edition <br> Sneakers</h1><br>
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+      <span class="discount_price">
+        <h3>$125.00</h3>
+        <p>50%</p>
+      </span><br>
+      <span class="old_price">
+        <p><del>$250.00</del></p>
+      </span>
+      <!--ps: this for mobile responsiveness-->
+      <div class="for_mobile">
+          <h3 class="new_p">$125.00</h3>
+          <p class="discount_price1">50%</p>
+          <span class="old_price1"><del>$250.00</del></span>
+      </div> 
+      <!-- this the end -->
+      <div class="btn">
+        <button class="order">
+          <input type="button" value="-">
+          <p>0</p>
+          <input type="button" value="+">
+        </button>
+  
+        <button class="add_to_cart_btn">
+          <img src="./images/icon-cart.svg" alt="">
+          <span><p>Add to cart</p></span>
+        </button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Rolalove</a>
+    </div>
+  </footer> 
+</body>
+</html>

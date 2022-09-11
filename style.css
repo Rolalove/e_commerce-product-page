@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body {
+      margin: 0px 7% 0px 7%;
+      cursor: pointer;
+      font-family: 'Kumbh Sans', sans-serif;
+}
+.nav_container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.icon {
+      display: flex;
+      font-size: 30px;
+      color: hsl(219, 9%, 45%);
+      display: none;
+}
+.logo_sign{
+      display: flex;
+      align-items: center;
+}
+.menu{
+      margin-left: 100px;
+      display: flex;
+}
+.menu li {
+      list-style: none;
+      padding: 10px;
+}
+.menu li a{
+      text-decoration: none;
+      color: hsl(219, 9%, 45%);
+      font-size: 18px;
+}
+.cart_img{
+      display: inline-flex;
+      align-items: center;
+}
+.cart_img img{
+      padding: 15px;
+}
+.avatar{
+      height: 10vh;
+} 
+.content {
+      display: flex;
+}
+.box {
+      width: 45%;
+      position: relative;
+      left: 100px;
+}
+.box1 {
+      width: 45%;
+}
+.sneakers_picture img {
+      width: 80%;
+      height: 60vh;
+      border-radius: 20px;
+      margin-top: 25px;
+}
+.thumbnail {
+      margin-top: 8px;
+      display: flex;
+}
+.thumbnail img {
+      border-radius: 10px;
+      width: 18%;
+      margin-right: 16px;
+}
+.thumbnail img:hover{
+      opacity: 0.5;
+      border: solid hsl(26, 100%, 55%);
+}
+.sneakers_info {
+      position: relative;
+      left: 30px;
+      margin-top: 35px;
+      margin-right: 5%;
+      padding: 39px;
+}
+.sneakers_info h5 {
+      color: hsl(26, 100%, 55%);
+      font-size: 16px;
+      text-transform: uppercase;
+}
+.sneakers_info h1 {
+      margin-top: 5px;
+      font-size: 2.5rem;
+}
+.sneakers_info p {
+      line-height: 1.9;
+      color: hsl(220, 13%, 13%);
+      font-size: 16px;
+}
+.discount_price {
+      display: inline-flex;
+      align-items: center;
+      margin-top: 30px;
+}
+
+.discount_price h3 {
+      font-size: 2rem;
+}
+.discount_price p {
+      color: hsl(26, 100%, 55%);
+      font-weight: 700;
+      background-color: hsl(25, 100%, 94%);
+      padding: 0px 10px;
+      margin-left: 20px;
+      text-align: center;
+      border-radius: 5px;
+}
+.old_price p {
+      color: hsl(220, 14%, 75%);
+      font-weight: 700;
+      font-size: 16px;
+} 
+/* so this is for the mobile styling for smaller device take note */
+.for_mobile {
+      display: flex;
+      align-items: center;
+      display: none;
+}
+.new_p {
+      font-size: 2rem;
+}
+.discount_price1 {
+      color: hsl(26, 100%, 55%);
+      font-weight: 700;
+      background-color: hsl(25, 100%, 94%);
+      padding: 0px 10px;
+      margin-left: 3%;
+      border-radius: 5px;
+}
+.old_price1 {
+      color: hsl(220, 14%, 75%);
+      font-weight: 700;
+      font-size: 16px;
+      margin-left: 20%;
+}
+/* it ends here✌ */
+.btn{
+      display: flex;
+}
+.order{
+      width: 30%;
+      justify-content: space-around;
+      align-items: center;
+      border: none;
+      border-radius: 10px;
+      display: flex;
+}
+.order input{
+      font-size: 23px;
+      border: none;
+      color: hsl(26, 100%, 55%);
+      font-weight: 700;
+}
+.add_to_cart_btn {
+      display: flex;
+      justify-content: center;
+      margin-left: 15px;
+      width: 50%;
+      padding: 10px 20px;
+      background-color: hsl(26, 100%, 55%);
+      border: none;
+      border-radius: 10px;
+      align-items: center;
+}
+.add_to_cart_btn img{
+      color: hsl(0, 0%, 100%);
+}
+.add_to_cart_btn span p{
+      margin-left: 10px;
+      text-align: center;
+      color: hsl(0, 0%, 100%);
+      font-weight: 700;
+}
+.attribution {
+      padding: 20px;
+      font-size: 11px;
+      text-align: center;
+}
+
+.attribution a {
+      color: hsl(228, 45%, 44%);
+}
+
+
+/* media query */
+
+@media screen and (max-width:1024px){
+      body{
+            margin: 0px;
+      }
+      header{
+            margin: 0px 7% 0px 7%;
+      }
+      .content{
+            width: 100%;
+      }
+      .box{
+            width: 50%;
+            position: relative;
+            left: 50px;
+      }
+      .box1{
+            width: 50%;
+      }
+      .sneakers_picture img {
+            width: 100%;
+            height: 40vh;
+            border-radius: 20px;
+            margin-top: 25px;
+      }
+      .thumbnail {
+            margin-top: 8px;
+            display: flex;
+      }
+      .thumbnail img {
+            border-radius: 10px;
+            width: 22%;
+            margin-right: 17px;
+      }
+      .sneakers_info p {
+            line-height: 1.9;
+            color: hsl(220, 13%, 13%);
+            font-size: 20px;
+      }
+      .old_price p {
+            color: hsl(220, 14%, 75%);
+}
+
+@media screen and (max-width:900px){
+      body{
+            margin: 0px;
+      }
+      .nav_container{
+            display: flex;
+      justify-content: space-around;
+      align-items: center;
+      }
+      .icon {
+      display: block;
+      }
+      .logo_sign{
+      display: flex;
+      align-items: center;
+      }
+      .cart_img{
+      display: inline-flex;
+      align-items: center;
+      }
+      .cart_img img{
+      padding: 15px;
+      }
+      .avatar{
+      height: 10vh;
+      } 
+      .menu, hr{
+            display: none;
+      }
+      .box1{
+            width: 100%;
+      }
+      .box{
+            width: 100%;
+            position: initial;
+            left: 0px;
+      }
+      .content{
+            flex-direction: column;
+      }
+      .sneakers_picture img {
+            width: 100%;
+            height: 50vh;
+            border-radius: 0px;
+            margin-top: 0px;
+      }
+      .thumbnail{
+            display: none;
+      }
+      .sneakers_info {
+      position: initial;
+      left: 0px;
+      margin-top: 10px;
+      margin-right: 0%;
+      padding: 15px;
+      }
+      .sneakers_info h5 {
+      color: hsl(26, 100%, 55%);
+      font-size: 18px;
+      text-transform: uppercase;
+      }
+      .sneakers_info h1 {
+      margin-top: 5px;
+      font-size: 2rem;
+      }
+      .sneakers_info p {
+      line-height: 1.9;
+      color: hsl(220, 13%, 13%);
+      font-size: 17px;
+      }
+      .discount_price,.old_price{
+            display: none;
+      }
+      .for_mobile{
+      display: flex;
+      }
+      .btn{
+            flex-direction: column;
+            margin-top: 20px;
+            justify-content: center;
+      }
+      .order{
+            width: 95%;
+            padding: 10px 20px;
+      }
+      .add_to_cart_btn{
+            margin-top: 10px;
+            width: 95%;
+            margin-left: 0px;
+      }
+}
+}
+
+@media screen and (max-width:300px){
+      .icon {
+                  display: flex;
+                  font-size: 20px;
+                  color: hsl(219, 9%, 45%);
+                  display: none;
+            }
+}

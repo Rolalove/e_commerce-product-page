@@ -239,7 +239,7 @@ body {
 }
 
 @media screen and (max-width:900px){
-      body{
+      body,header{
             margin: 0px;
       }
       .nav_container{
@@ -329,13 +329,6 @@ body {
             margin-left: 0px;
       }
 }
-}
 
-@media screen and (max-width:300px){
-      .icon {
-                  display: flex;
-                  font-size: 20px;
-                  color: hsl(219, 9%, 45%);
-                  display: none;
-            }
-}
+
+

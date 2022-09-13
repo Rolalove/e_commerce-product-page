@@ -5,12 +5,12 @@
       padding: 0;
       box-sizing: border-box;
 }
-button {
-      Cursor:pointer;
-}
 body {
       margin: 0px 7% 0px 7%;
       font-family: 'Kumbh Sans', sans-serif;
+}
+button {
+      cursor: pointer;
 }
 .nav_container{
       display: flex;

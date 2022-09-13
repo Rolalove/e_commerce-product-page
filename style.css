@@ -5,9 +5,11 @@
       padding: 0;
       box-sizing: border-box;
 }
+button {
+      Cursor:pointer;
+}
 body {
       margin: 0px 7% 0px 7%;
-      cursor: pointer;
       font-family: 'Kumbh Sans', sans-serif;
 }
 .nav_container{
@@ -239,7 +241,7 @@ body {
 }
 
 @media screen and (max-width:900px){
-      body,header{
+      body, header{
             margin: 0px;
       }
       .nav_container{
